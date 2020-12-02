@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Cyberverse;
+    src: url("../fonts/Cyberverse.ttf") format("truetype")
+}
+
+html {
+    font-size: 30px;
+    color: rgb(211, 219, 224);
+    font-weight: 900;
+    font-family: Cyberverse;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(26, 41, 65);
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.clock {
+    text-align: center;    
+}
